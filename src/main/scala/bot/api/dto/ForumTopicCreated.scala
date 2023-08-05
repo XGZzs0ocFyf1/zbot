@@ -10,5 +10,5 @@ package bot.api.dto
 case class ForumTopicCreated(
   name: String,
   icon_color: Integer,
-  icon_custom_emoji_id: String,
+  icon_custom_emoji_id: Option[String],
 )

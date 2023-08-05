@@ -6,7 +6,7 @@ case class GetUpdatesRs(
   offset: Option[Int],
   limit: Option[Int],
   timeout: Option[Int],
-  result: Option[Array[String]]
+  result: Option[Update]
 )
 
 case class Chat(
